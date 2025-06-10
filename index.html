@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RanBOT - AI-Powered Browser Extension</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <img src="assets/ranbot-logo.svg" alt="RanBOT" class="logo">
+                <span class="brand-name">RanBOT</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#how-it-works" class="nav-link">How it works</a>
+                <a href="#download" class="nav-link">Download</a>
+                <button class="cta-button">Get Started</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Meet RanBOT
+                    <span class="gradient-text">Your AI browsing companion</span>
+                </h1>
+                <p class="hero-description">
+                    Transform your browsing experience with intelligent automation,
+                    smart content analysis, and seamless AI assistance right in your browser.
+                </p>
+                <div class="hero-actions">
+                    <button class="primary-button">
+                        <span>Add to Chrome</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                            <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <button class="secondary-button">
+                        <span>Watch Demo</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                            <path d="M8 5V19L19 12L8 5Z" fill="currentColor"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="browser-mockup">
+                    <div class="browser-header">
+                        <div class="browser-controls">
+                            <span class="control red"></span>
+                            <span class="control yellow"></span>
+                            <span class="control green"></span>
+                        </div>
+                        <div class="address-bar">
+                            <span>🔒 ranbot.ai</span>
+                        </div>
+                    </div>
+                    <div class="browser-content">
+                        <div class="ranbot-widget">
+                            <div class="widget-header">
+                                <div class="ranbot-avatar">🤖</div>
+                                <span>RanBOT Assistant</span>
+                            </div>
+                            <div class="chat-messages">
+                                <div class="message bot">
+                                    <p>I can help you summarize this article, extract key information, or answer questions about the content.</p>
+                                </div>
+                                <div class="message user">
+                                    <p>Summarize the main points</p>
+                                </div>
+                                <div class="message bot typing">
+                                    <div class="typing-indicator">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Powerful features for smarter browsing</h2>
+                <p>RanBOT brings AI capabilities directly to your browser, making every web interaction more intelligent and efficient.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3>Smart Content Analysis</h3>
+                    <p>Automatically analyze web pages, extract key information, and provide intelligent summaries of any content you're reading.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                            <path d="M21 15A2 2 0 0 1 19 17H7A2 2 0 0 1 5 15V9A2 2 0 0 1 7 7H19A2 2 0 0 1 21 9V15Z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M9 7V17" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Instant Q&A</h3>
+                    <p>Ask questions about any webpage and get instant, contextual answers based on the content you're viewing.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                            <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3>Quick Actions</h3>
+                    <p>Perform common tasks with AI assistance - translate text, explain concepts, or generate summaries with a single click.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 22S8 18 8 13A4 4 0 0 1 16 13C16 18 12 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="12" cy="13" r="1" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Privacy First</h3>
+                    <p>Your data stays secure with local processing and encrypted communications. No browsing history is stored or shared.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>Simple to use, powerful in action</h2>
+                <p>Get started with RanBOT in three easy steps</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Install Extension</h3>
+                        <p>Add RanBOT to your Chrome browser with one click from the Chrome Web Store.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Browse Normally</h3>
+                        <p>Continue browsing as usual. RanBOT works silently in the background, ready when you need it.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Get AI Assistance</h3>
+                        <p>Click the RanBOT icon or use keyboard shortcuts to get instant AI help with any webpage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <h2>Ready to supercharge your browsing?</h2>
+                <p>Join thousands of users who are already browsing smarter with RanBOT</p>
+                <div class="download-buttons">
+                    <button class="download-button chrome">
+                        <img src="assets/chrome-icon.svg" alt="Chrome">
+                        <div>
+                            <span class="small">Available on</span>
+                            <span class="large">Chrome Web Store</span>
+                        </div>
+                    </button>
+                    <button class="download-button firefox">
+                        <img src="assets/firefox-icon.svg" alt="Firefox">
+                        <div>
+                            <span class="small">Coming soon to</span>
+                            <span class="large">Firefox Add-ons</span>
+                        </div>
+                    </button>
+                </div>
+                <p class="download-note">Free to use • No account required • Works offline</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="assets/ranbot-logo.svg" alt="RanBOT" class="footer-logo">
+                    <span class="footer-brand-name">RanBOT</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Service</a>
+                    <a href="#support">Support</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 RanBOT. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
