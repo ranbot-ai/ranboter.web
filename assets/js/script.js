@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Simulate Chrome Web Store redirect
             console.log('Redirecting to Chrome Web Store...');
-            // window.open('https://chrome.google.com/webstore', '_blank');
+            window.open('https://chromewebstore.google.com/detail/ranboter/nmdmfikkicpdphdnjgnhogdmeclobfjg', '_blank');
         });
     });
 
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (browserType === 'Chrome') {
                 // Simulate Chrome Web Store redirect
                 console.log('Redirecting to Chrome Web Store...');
-                // window.open('https://chrome.google.com/webstore', '_blank');
+                window.open('https://chromewebstore.google.com/detail/ranboter/nmdmfikkicpdphdnjgnhogdmeclobfjg', '_blank');
             } else {
                 // Show coming soon message for Firefox
                 showComingSoonModal();

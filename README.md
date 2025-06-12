@@ -2,6 +2,8 @@
 
 A modern, responsive homepage for the RanBOT AI-powered browser extension, inspired by Google Gemini's clean and elegant design.
 
+[RanBOTer in Chrome](https://chromewebstore.google.com/detail/ranboter/nmdmfikkicpdphdnjgnhogdmeclobfjg)
+
 ## 🚀 Features
 
 - **Modern Design**: Clean, minimalist interface inspired by Google's design language
